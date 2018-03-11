@@ -1,6 +1,6 @@
 Introduction
 ==========================
-The challenge was to build a Q-learning algorithm by using existing code (which I referenced in the credits). The header mprovements describes which improvements I made.
+The challenge was to build a Q-learning algorithm by using existing code (which I referenced in the credits). The header improvements describes which improvements I made.
 
 Run
 ==========================
@@ -9,8 +9,8 @@ Run  'Python3 Learner.py'
 Improvements
 ==========================
 I improved the code by changing the following:
-- Replace unnececary functions/code (LOTS of code cleaning).
-- Optimize by using list comprehension (loads of for loops were used, while this wasn't neccecary in all cases)
+- Replace unnecessary functions/code (LOTS of code cleaning).
+- Optimize by using list comprehension (loads of for loops were used, while this wasn't necessary in all cases)
 - Use of classes ('World' is now a class, which in my opinion is a cleaner way of coding)
 - Merged walls/specials to objects variable.
 - Walls give a negative result of -1 to discourage the bot to go near. I could have used a very high value,
